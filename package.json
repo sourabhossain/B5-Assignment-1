@@ -1,0 +1,20 @@
+{
+    "name": "b5-assignment-1",
+    "version": "1.0.0",
+    "description": "A simple TypeScript compiler setup",
+    "main": "app.js",
+    "scripts": {
+        "dev": "tsx watch src/app.ts",
+        "build": "tsc --outDir dist",
+        "watch": "tsc --watch",
+        "start": "node dist/app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sourabhossain/B5-Assignment-1.git"
+    },
+    "devDependencies": {
+        "tsx": "^4.19.4",
+        "typescript": "^5.8.3"
+    }
+}
